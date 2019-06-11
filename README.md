@@ -1,6 +1,9 @@
-# AWS Launcher
+# Google Cloud Launcher
 
-Launch your AWS Services from your macOS dock.
+
+## Inspired from https://github.com/kwent/aws-launcher
+
+Launch your Google Cloud Services from your macOS dock.
 
 [![npm version](https://img.shields.io/npm/v/aws-launcher.svg?style=flat)](https://www.npmjs.com/package/aws-launcher)
 

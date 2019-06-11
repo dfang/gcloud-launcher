@@ -1,19 +1,19 @@
 {
-  "name": "aws-launcher",
-  "description": "Launch your AWS Services from your macOS dock.",
+  "name": "gcloud-launcher",
+  "description": "Launch your Google Cloud Services from your macOS dock.",
   "private": false,
   "version": "1.0.2",
   "os": [
     "darwin"
   ],
   "preferGlobal": true,
-  "homepage": "https://github.com/kwent/aws-launcher",
+  "homepage": "https://github.com/dfang/gcloud-launcher",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kwent/aws-launcher.git"
+    "url": "https://github.com/dfang/gcloud-launcher.git"
   },
   "bugs": {
-    "url": "https://github.com/kwent/aws-launcher/issues"
+    "url": "https://github.com/dfang/gcloud-launcher/issues"
   },
   "scripts": {
     "postinstall": "node compile.js"
@@ -25,7 +25,6 @@
     "osx",
     "macOS"
   ],
-  "author": "Quentin Rousseau <contact@quent.in>",
   "license": "MIT",
   "dependencies": {
     "fileicon": "^0.2.0"
