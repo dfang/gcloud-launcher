@@ -6,12 +6,22 @@ const path = require('path')
 
 var data = [
   {
+    name: "GCP",
+    icon: "Google Cloud Platform",
+    url: "https://console.cloud.google.com/"
+  },
+  {
     name: "Google Cloud Platform",
     icon: "Google Cloud Platform",
     url: "https://console.cloud.google.com/"
   },
   {
     name: "App Engine",
+    icon: "App Engine",
+    url: "https://console.cloud.google.com/appengine"
+  },
+  {
+    name: "GAE",
     icon: "App Engine",
     url: "https://console.cloud.google.com/appengine"
   },
@@ -24,9 +34,14 @@ var data = [
     name: "Cloud Functions",
     icon: "Cloud Functions",
     url: "https://cloud.google.com/functions"
-  },
+  }, 
   {
     name: "Kubernetes Engine",
+    icon: "Kubernetes Engine",
+    url: "https://console.cloud.google.com/kubernetes"
+  },
+  {
+    name: "GKE",
     icon: "Kubernetes Engine",
     url: "https://console.cloud.google.com/kubernetes"
   },
